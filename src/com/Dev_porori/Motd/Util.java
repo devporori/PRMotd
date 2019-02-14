@@ -16,13 +16,9 @@ public class Util {
 				.replace("&f", "」f").replace("&r", "」r").replace("&k", "」k").replace("&l", "」l").replace("&m", "」m")
 				.replace("&n", "」n").replace("&o", "」o");
 	}
-
+	
 	public static void log(String log) {
 		Bukkit.getConsoleSender().sendMessage(INFO + log);
-	}
-
-	public static void warn(String log) {
-		Bukkit.getConsoleSender().sendMessage(WARN + log);
 	}
 	
 	public static void sendMessage(CommandSender sender, String message) {
