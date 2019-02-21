@@ -1,3 +1,5 @@
 motd:
   Line-1: '&e[ &fPRServer Motd &e]'
   Line-2: '&aconfig.yml&f에서 &6motd&f를 설정해주세요.'
+  
+players:
